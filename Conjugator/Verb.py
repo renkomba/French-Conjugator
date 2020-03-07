@@ -24,7 +24,7 @@ class Verb:
         return stem[:index] + letter + stem[index+1:]
 
     def add_in_stem(stem, letter, index=-2):
-        return stem[:index)] + letter + stem[index:]
+        return stem[:index] + letter + stem[index:]
 
     def conjugate_present(self, persons):
         conjugations = []
