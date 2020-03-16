@@ -20,10 +20,10 @@ class Verb:
     def __repr__(self):
         return f"Verbe: {self.infinitive}"
 
-    def replace_in_stem(stem, letter, index=-2):
+    def replace_in_stem(self, stem, letter, index=-2):
         return stem[:index] + letter + stem[index+1:]
 
-    def add_in_stem(stem, letter, index=-2):
+    def add_in_stem(self, stem, letter, index=-2):
         return stem[:index] + letter + stem[index:]
 
     def conjugate_present(self, persons):
