@@ -57,7 +57,7 @@ class Subject:
     def __getitem__(self, place):
         return self.subject_dict[place]
 
-    def modify_pronoun(pronoun):
+    def modify_pronoun(self, pronoun):
         equivalent_pronouns = {"je ": "j'", "j'": "je ",
                                 "ça ": "c'", "c'": "ça "}
         return equivalent_pronouns[pronoun]
